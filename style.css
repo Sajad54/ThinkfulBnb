@@ -188,6 +188,7 @@ footer p {
 
   form {
     display: flex;
+    flex-direction: column;
   }
 
   form div {
