@@ -112,10 +112,13 @@ header nav ul li a:hover {
 form {
   border: 2px solid #ff385c;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 form div {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -155,135 +158,78 @@ footer p {
 
 /* -------  Media Query ------- */
 @media all and (min-width: 480px) {
-  header{
+  header {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0 30px;
-    flex-direction: row;
-  }
-
-  header h1{
-    margin: 14px 10px;
-    padding-top: 0;
-    font-size: 48px;
-  }
-
-  header nav{
-    margin-top: 16px;
-    flex-direction: row;
-    justify-content: space-evenly;
+    padding: 15px;
   }
   
-  header nav ul li a{
-    font-family: monserrat;
+  .logo {
+    font-size: 48px;
+    padding-left: 5px;
   }
 
-  header nav ul li a:hover{
-    color: #bdbdbd;
-  }
-
-  h2 {
-    text-align: center;
-  }
+  /* -------  Search Form ------- */
 
   form {
+    align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
   }
 
   form div {
-    margin: 0 auto;
+    display: flex;
     flex-direction: column;
   }
 
-  section.alternate-background img {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
+  form label {
+    padding-bottom: 15px;
+    font-weight: bold;
   }
 
-  section.alternate-background p {
-    padding-top: 20px;
-    font-size: 14px;
+  .form-input {
+    padding-right: 15px;
+    justify-content: center;
   }
 
-  section.ideas {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+  button {
+    justify-content: center;
   }
 
-  section.ideas img {
-    display: flex;
-    height: 50%;
-  }
-
-  section.ideas h2 {
-    text-align: center;
-  }
+  /* -------  Groups & Items------- */
 
   .group {
-    flex-direction: row;
     align-items: center;
-  }
-
-  .about-row {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .about-row img {
-    display: flex;
-    padding: 10px;
-    width: 40%;
-    margin: auto;
-  }
-
-  .about-text {
     display: flex;
     justify-content: center;
-    font-size: 14px;
-    flex-direction: row;
-    margin: auto;
-  }
-
-  .about-text p {
-    display: flex;
-    font-size: 14px;
-    margin-left: auto;
-  }
-
-  .ideapics {
-    display: flex;
-    flex-wrap: wrap;
-    width: 20%;
-  }
-
-  .rowed {
-    display: flex;
     flex-direction: row;
   }
 
-  .hostpic {
+  .item button,
+  .item input,
+  .item label,
+  .item select {
     display: flex;
-    flex-direction: column;
-    width: 270%;
+    width: 100%;
   }
 
-  .hostlist {
-    display: flex;
-    font-size: 12px;
-    flex-direction: column;
+  .item {
+    flex: 1;
+    margin: 15px;
   }
 
-  section.host img {
-    display: flex;
-    width: 10%;
+  .item-double {
+    flex: 2;
+    margin: 15px;
   }
 
-  section.host ul li {
-    font-size: 2px;
+  p {
+    padding-left: 10px;
+    padding-right: 10px;
   }
-
 }
