@@ -106,15 +106,39 @@ header nav ul li a:hover {
 form {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
   border: 2px solid #ff385c;
   padding: 10px;
+  
 }
 
 form label {
   font-weight: bold;
   padding-right: 10px;
 }
+
+input#location{
+  margin-left: 56.6px;
+}
+
+input#arrive{
+  margin-left: 75px;
+  margin-top: 20px;
+
+}
+
+input#depart{
+  margin-left: 67px;
+  margin-top: 20px;
+}
+
+select#type{
+  padding: 0px 70px 0 0px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+
 
 form button {
   background-color: #ff385c;
@@ -123,11 +147,11 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+  margin-top: 15px;
 }
 
 .form-input {
   display: flex;
-  justify-content: space-between;
 }
 
 /* -------  Footer ------- */
@@ -173,7 +197,7 @@ footer p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 10px 10px 10px 10px;
   }
 
@@ -194,6 +218,32 @@ footer p {
 
   button {
     justify-content: center;
+    margin-top: 5px;
+  }
+  form label {
+    font-weight: bold;
+    padding-right: 10px;
+  }
+  
+  input#location{
+    margin-left: 0px;
+  }
+  
+  input#arrive{
+    margin-left: 0px;
+    margin-top: 0px;
+  
+  }
+  
+  input#depart{
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  
+  select#type{
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
   }
 
   /* -------  Groups & Items------- */
