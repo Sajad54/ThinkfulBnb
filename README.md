@@ -1,7 +1,7 @@
 # Thinkfulbnb
 This project tested my knowledge on HTML and CSS.\ 
 From creating input fields in HTML to creating responsive images and media querys to make the webpage responsive.\
-I enjoyed this project because it was my first proper step into Web Development.
+I enjoyed this project because it was my first proper step into Web Development.\
 
 
 - Used HTML and CSS to format a website to display correctly on desktops, tablets , and phones.
