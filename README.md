@@ -1,18 +1,26 @@
 # Thinkfulbnb
+This project tested my knowledge on HTML and CSS.\ 
+From creating input fields in HTML to creating responsive images and media querys to make the webpage responsive.\
+I enjoyed this project because it was my first proper step into Web Development.
 
-Thinkfulbnb is a vacation rental website that allows people to rent out their homes to people who are seeking short-term accommodations in that locale. Thinkfulbnb hosts rent out different kinds of properties, including single rooms, apartments, and unique living spaces such as yachts, houseboats, yurts, tiny houses, and even renovated medieval castles.
+
+- Used HTML and CSS to format a website to display correctly on desktops, tablets , and phones.
+Created a page layout using flexbox.
+- Implemented media queries for responsive design.
+- Mobile-first development.
+- Built with: HTML, CSS.
 
 
 
 ## Mobile view
-### This is the Mobile View of the webpage.\
+### This is the Mobile View of the webpage.
 ![](images/Thinkfulbnb-mobile.png)
 
 ## Desktop view
-### This is the Desktop View of the webpage.\
+### This is the Desktop View of the webpage.
 ![](images/Thinkfulbnb-desktop.png)
 
-### Files
+## Files
 
 | File         | Description                                                             |
 | ------------ | ----------------------------------------------------------------------- |
@@ -21,7 +29,7 @@ Thinkfulbnb is a vacation rental website that allows people to rent out their ho
 | `style.css`  | The CSS file that containts all the formating for the project.|
 
 
-#### Navigation
+### Navigation
 
 
 ![Navigation mobile](./images/navigation-mobile.png)
@@ -48,7 +56,7 @@ Thinkfulbnb is a vacation rental website that allows people to rent out their ho
 ![Search form mobile](./images/search-form-mobile.png)
 
 
-#### Responsive images
+### Responsive images
 
 - Wrote CSS so that all images will match whatever container width they are placed within, and changing the container sizes will update the image sizes appropriately.
 
