@@ -4,12 +4,12 @@ Thinkfulbnb is a vacation rental website that allows people to rent out their ho
 
 
 
-### Mobile view
-This is the Mobile View of the webpage.\
+## Mobile view
+### This is the Mobile View of the webpage.\
 ![](images/Thinkfulbnb-mobile.png)
 
-### Desktop view
-This is the Desktop View of the webpage.\
+## Desktop view
+### This is the Desktop View of the webpage.\
 ![](images/Thinkfulbnb-desktop.png)
 
 ### Files
